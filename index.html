@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Brew Byte Bliss ☕</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Pacifico&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>☕ Brew Byte Bliss</h1>
+      <p>Brewed to perfection, served with a smile.</p>
+    </header>
+
+    <section class="menu-section">
+      <h2>Menu</h2>
+      <div id="menu" class="menu-grid"></div>
+    </section>
+
+    <section class="cart-section">
+      <h2>🛒 Your Cart</h2>
+      <div id="cart" class="cart"></div>
+      <div id="total">Total: ₹0</div>
+    </section>
+
+    <section class="form-section">
+      <h2>Customer Info</h2>
+      <form id="order-form">
+        <input type="text" id="customerName" placeholder="Your Name" required />
+        <select id="paymentType">
+          <option value="Cash">Cash</option>
+          <option value="Card">Card</option>
+          <option value="UPI">UPI</option>
+        </select>
+        <button type="submit">🧾 Place Order</button>
+      </form>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

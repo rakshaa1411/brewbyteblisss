@@ -1,0 +1,134 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #fffaf3;
+    color: #3e3e3e;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: #a0522d;
+  }
+  
+  header p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #777;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #e6c3a5;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #a0522d;
+  }
+  
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .menu-item {
+    background-color: #fff5e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .menu-item:hover {
+    transform: scale(1.05);
+    background-color: #ffefda;
+  }
+  
+  .menu-item h3 {
+    margin: 0;
+    color: #5c3a1a;
+  }
+  
+  .menu-item p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .menu-item button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #d2691e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .menu-item button:hover {
+    background-color: #a0522d;
+  }
+  
+  .cart {
+    background-color: #fdf4e3;
+    padding: 15px;
+    border-radius: 8px;
+    min-height: 50px;
+  }
+  
+  .cart-item {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  #total {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #a0522d;
+  }
+  
+  .form-section input,
+  .form-section select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #c9a97d;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .form-section button {
+    width: 100%;
+    padding: 12px;
+    background-color: #b65a1a;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .form-section button:hover {
+    background-color: #8b3e0a;
+  }
+  
+  .popup-message {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 1000;
+  }
+  
